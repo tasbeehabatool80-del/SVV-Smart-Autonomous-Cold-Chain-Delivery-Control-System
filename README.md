@@ -1,10 +1,5 @@
 # SACDCS: Software Quality Engineering Open-Ended Lab (OEL)
 
-**Student name:** Tasbeeha Batool
-**Roll number:** Sp-2024/BSSE/037
-**Course / Section:** SV&V / B
-**Teacher:** Ma'am Saleha Yusuf
-
 ## What this project is
 
 This repository holds my individual work for the OEL on the **Smart Autonomous Cold-Chain Delivery & Control System (SACDCS)**. In the scenario, autonomous robots carry vaccines and medicines from a central warehouse to remote clinics. Each robot has a sealed conservation chamber and is supervised from a Mission Control Centre. The robots must also cross railway level-crossings safely.
