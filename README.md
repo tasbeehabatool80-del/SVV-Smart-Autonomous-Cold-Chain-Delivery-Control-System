@@ -1,9 +1,9 @@
 # SACDCS: Software Quality Engineering Open-Ended Lab (OEL)
 
-**Student name:** (write your name)
-**Roll number:** (write your roll number)
-**Course / Section:** (write your course)
-**Teacher:** (write your teacher's name)
+**Student name:** Tasbeeha Batool
+**Roll number:** Sp-2024/BSSE/037
+**Course / Section:** SV&V / B
+**Teacher:** Ma'am Saleha Yusuf
 
 ## What this project is
 
