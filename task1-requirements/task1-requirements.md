@@ -2,7 +2,7 @@
 
 **Project:** Smart Autonomous Cold-Chain Delivery & Control System (SACDCS)
 **Role:** Software Quality Engineering Lead
-**Document version:** v1.0 (approved baseline, before any Change Request)
+**Document version:** v1.1 (after CR-01, CR-02 and CR-03)
 
 ## Notes
 - The scenario gives no exact numbers, so I chose values (listed in section 3) to make every requirement testable.
@@ -16,7 +16,7 @@
 
 | Req. ID | Requirement | Type | Priority | Verification Method |
 |---|---|---|---|---|
-| FR-01 | Only authenticated operators shall be permitted to issue robot commands. | FR | High | Test: valid login, wrong password, no login |
+| FR-01 (Modified v1.1, CR-03) | The system shall require authenticated and role-authorised operators before accepting any robot command. | FR | High | Test: valid login with an allowed role is accepted; valid login with a wrong role is rejected; no login is rejected. |
 | FR-02 | Before sending a command, the system shall check it is well formed, names an existing robot, and is allowed in that robot's current state. A bad command is rejected with an error code within 2 seconds. | FR | High | Test: bad command, unknown robot, wrong state |
 | FR-03 | The robot follows this order: a valid DeliveryRequest starts navigation, it delivers at the destination, returns to the warehouse, and becomes idle. If the battery reaches 20% during navigation, it abandons the delivery and returns. | FR | High | Test + Analysis against the state model |
 | FR-04 | On obstacle detection the robot suspends navigation, avoids the obstacle, and resumes the same trip when cleared. If avoidance lasts over 120 seconds, it enters Safe Mode. | FR | High | Test with a simulated obstacle |
