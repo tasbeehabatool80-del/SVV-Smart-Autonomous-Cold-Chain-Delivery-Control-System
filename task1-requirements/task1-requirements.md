@@ -32,6 +32,6 @@
 | Req. ID | Requirement | Type | Priority | Verification Method |
 |---|---|---|---|---|
 | NFR-01 (Performance) | Authentication takes at most 2 seconds. With link delay up to 5 seconds, a command result shows on the screen within 15 seconds. | NFR | Medium | Test 30 commands with a delay tool |
-| NFR-02 (Scalability) | The system shall support communication with multiple robots simultaneously. | NFR | Medium | Test with several simulated robots |
+| NFR-02 (Scalability) (Modified v1.1, CR-02) | The system shall support at least 20 simultaneously connected robots. | NFR | Medium | Test: connect 20 simulated robots at the same time, send commands and telemetry, check no loss and that NFR-01 times still hold. |
 | NFR-03 (Security) | An account is locked for 15 minutes after 5 failed logins. A session ends after 10 minutes idle. All data between Mission Control and robots is encrypted. | NFR | High | Test + Inspection (capture traffic) |
 | NFR-04 (Reliability) | Chamber monitoring and safety actions keep working with no link. No log entry is lost: each robot stores 24 hours locally and uploads
