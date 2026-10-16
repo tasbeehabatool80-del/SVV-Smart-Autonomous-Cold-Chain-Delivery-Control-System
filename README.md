@@ -9,7 +9,7 @@ My role is **Software Quality Engineering Lead**. I analyse, model, constrain, v
 ## Repository structure
 
 ```
-sacdcs-software-quality-oel/
+SVV-Smart-Autonomous-Cold-Chain-Delivery-Control-System/
 ├── README.md
 ├── CHANGELOG.md
 ├── task1-requirements/
